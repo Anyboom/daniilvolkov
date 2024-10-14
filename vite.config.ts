@@ -13,9 +13,6 @@ import autoprefixer from "autoprefixer";
 export default defineConfig({
   base: "/daniilvolkov.github.io/",
   plugins: [vue(), vueDevTools(), eslint()],
-  build: {
-    outDir: "dist",
-  },
   css: {
     postcss: {
       plugins: [tailwindcss, autoprefixer],
