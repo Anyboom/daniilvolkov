@@ -10,11 +10,11 @@ import { resolve } from "path";
 
 import autoprefixer from "autoprefixer";
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: "/daniilvolkov.github.io",
   plugins: [vue(), vueDevTools(), eslint()],
   build: {
-    outDir: "public_html",
+    outDir: "dist",
   },
   css: {
     postcss: {
