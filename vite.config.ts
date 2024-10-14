@@ -11,7 +11,7 @@ import { resolve } from "path";
 import autoprefixer from "autoprefixer";
 
 export default defineConfig({
-  base: "/daniilvolkov.github.io/",
+  base: "/",
   plugins: [vue(), vueDevTools(), eslint()],
   css: {
     postcss: {
